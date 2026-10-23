@@ -4,5 +4,5 @@ for i in range(1, 6):
 
 print("--- Table de multiplication ---")
 nombre = int(input("Quelle table veux-tu voir ? "))
-for i in range(1, 11):
+for i in range(1, 13):
     print(f"{nombre} x {i} = {nombre * i}")
