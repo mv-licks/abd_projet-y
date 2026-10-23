@@ -1,3 +1,7 @@
-nom = input("Quel est ton nom ? ")
+﻿nom = input("Quel est ton nom ? ")
 age = int(input("Quel est ton age ? "))
-print(f"Bonjour {nom} ! Dans 5 ans, tu auras {age + 5} ans.")
+
+if age >= 18:
+    print(f"Bonjour {nom}, tu es majeur.")
+else:
+    print(f"Bonjour {nom}, tu es mineur.")
